@@ -27,7 +27,7 @@ const persistConfig = {
 };
 
 const rootReducer = combineReducers({
-    GenericData: StateSliceReducers,
+    FetchData: StateSliceReducers,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

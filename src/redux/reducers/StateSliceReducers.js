@@ -3,12 +3,12 @@ import { createSlice } from "@reduxjs/toolkit";
 const SliceMain = createSlice({
     name: "mainSlice",
     initialState: {
-        dataFetch: null,
+        dataFetchSearch: null,
     },
 
     reducers: {
         setDataFetch: (state, action) => {
-            state.dataFetch = action.payload;
+            state.dataFetchSearch = action.payload;
         },
     },
 });
